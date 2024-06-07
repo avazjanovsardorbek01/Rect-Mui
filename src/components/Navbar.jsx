@@ -70,7 +70,7 @@ function Navbar({ setSidebarToggle, sidebarToggle, onSearch }) {
           <MenuIcon />
         </IconButton>
         <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1 }}>
-          Dashboard
+          Admin
         </Typography>
         <Box sx={{ flexGrow: 1 }} /> {/* This takes up the remaining space */}
         <Search>

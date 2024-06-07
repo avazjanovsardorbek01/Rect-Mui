@@ -39,6 +39,7 @@ function App() {
           <Toolbar />
           <Routes>
             <Route path="/" element={<Dashboard />} />
+
             <Route
               path="/services"
               element={<DataTable searchTerm={searchTerm} />}
